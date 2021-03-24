@@ -8,12 +8,11 @@ const RenderNFT = (props) =>{
             <Row>{
                 props.tokens.map((token, key) => (
                     <Col sm="4" key={key}>
-                        <Card body key={key}>
-                        <CardImg src={token.imgUrl} />
-                        <CardTitle tag="h5">NFT #{key}.</CardTitle>
-                        <div className="token" ></div>                        
+                        <CardTitle tag="h5">NFT #{token.id}.</CardTitle>
+                        <Card body key={key}>                        
+                        <CardImg src={token.imgUrl} />                                                                        
                         <CardText>                    
-                        - NFT ID: {key} <br/> - Owner: {token.owner} <br/> - Id: {token.id} </CardText>
+                        - Owner (address): {token.owner} <br/> </CardText>
                         <Button>Go somewhere</Button>
                         </Card>
                     </Col>

@@ -11,7 +11,7 @@
 
 # production
 /build
-/src/abis
+
 
 # misc
 .DS_Store
@@ -26,3 +26,4 @@ yarn-error.log*
 
 .gitignore
 .env
+.gitignore
