@@ -112,7 +112,7 @@ class App extends Component {
                   <input
                     type='text'
                     className='form-control mb-1'
-                    placeholder='e.g. http://google.com/img1'
+                    placeholder='paste img uri, e.g. http://google.com/img1.png'
                     ref={(input) => { this.uri = input }}
                   />
                   <input
@@ -132,7 +132,7 @@ class App extends Component {
                   <input
                     type='text'
                     className='form-control mb-1'
-                    placeholder='e.g. 1'
+                    placeholder='insert NFT id, e.g. 1'
                     ref={(input) => { this.id = input }}
                   />
                   <input
