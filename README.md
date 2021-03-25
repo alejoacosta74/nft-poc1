@@ -1,5 +1,9 @@
 # NFT token PoC
 
+## About
+
+Proof of Concept for a NFT Dapp based on ERC721 deployed in Kovan
+
 ## NFT Contract address
 
 The `NFT` smart contract is deployed in Kovan at address [0x9Aa62AB00f41a38a34AF9D6EDEac0F2D2D9746CF](https://kovan.etherscan.io/address/0x9aa62ab00f41a38a34af9d6edeac0f2d2d9746cf)
@@ -12,7 +16,7 @@ Run `npm install` to install packages.
 
 Running `npm start` will start a local web server and a browser tab to access the following Dapp:
 
-![screen example](./src/utils/screen1.png)
+![screen example](./src/utils/screen1.PNG)
 
 ## Development
 
